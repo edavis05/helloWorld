@@ -1,0 +1,32 @@
+/*style for paragraphs*/
+p {
+    color:darkolivegreen;
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: georgia;
+}
+/*style for 2nd level  headers*/
+h2{
+    color:navy;
+    bottom-border: inherit;
+    font-weight: bolder;
+}
+
+table, th, td{
+    border-width: thin;
+    border-style: dashed;
+    border-color: navy;
+    border-collapse: collapse;
+}
+#closing {
+    background-color: lightgrey;
+    font-weight: bold;
+}
+.highlight{
+    font-style: italic;
+}
+/*add image size*/
+img.logo {
+    width: 150px;
+    height: auto;
+}
