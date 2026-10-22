@@ -14,7 +14,7 @@
         <dd class="col-sm-9">{{ request.form.get('last_name','') }}</dd>
 
         <dt class="col-sm-3">Email Address</dt>
-        <dd class="col-sm-9">{{ request.form.get('email_address', '') }}</dd>
+        <dd class="col-sm-9">{{ request.form.get('email', '') }}</dd>
 
         <dt class="col-sm-3">Message</dt>
         <dd class="col-sm-9">{{ request.form.get('message','') }}</dd>
@@ -55,6 +55,17 @@
                 name="email"
                 required
             >
+        </div>
+
+        <div class="col-12">
+            <label for="message" class="form-label">Message</label>
+            <textarea
+                class="form-control"
+                id="message"
+                name="message"
+                rows="4"
+                required>
+            </textarea>
         </div>
 
         <div class="col-12">
